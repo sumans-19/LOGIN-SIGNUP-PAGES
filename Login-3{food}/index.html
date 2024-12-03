@@ -17,6 +17,15 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column; /* Added to stack heading and form */
+        }
+
+        .heading {
+            color: #ffffff;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            text-align: center;
         }
 
         .main-container {
@@ -103,6 +112,7 @@
     </style>
 </head>
 <body>
+    <h1 class="heading">Sign Up/Login to Meet Your <span style="color: #e63946;">Chef Man</span></h1>
     <div class="main-container">
         <div class="form-slider" id="form-slider">
             <!-- Sign Up Form -->
